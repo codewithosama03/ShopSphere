@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL =
+  "https://shopsphere-backend-2wim.onrender.com/api";
 
 // helper
 const getToken = () => {
