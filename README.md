@@ -37,72 +37,75 @@ The project demonstrates a complete end-to-end e-commerce workflow including fro
 - Backend + frontend deployed successfully
 
 ## Project Structure / Components
+- 
+- Backend (Node.js + Express)
+- server.js: backend entry point
+- routes/productRoutes.js: product APIs
+- routes/userRoutes.js: authentication APIs
+- routes/cartRoutes.js: cart APIs
+- routes/orderRoutes.js: order APIs
+- controllers/: business logic layer
+- models/Product.js: product schema
+- models/User.js: user schema
+- models/Order.js: order schema
+- middleware/authMiddleware.js: JWT route protection
+- config/db.js: MongoDB connection
+ 
+- Frontend (React + Vite)
 
-Backend (Node.js + Express)
-server.js: backend entry point
-routes/productRoutes.js: product APIs
-routes/userRoutes.js: authentication APIs
-routes/cartRoutes.js: cart APIs
-routes/orderRoutes.js: order APIs
-controllers/: business logic layer
-models/Product.js: product schema
-models/User.js: user schema
-models/Order.js: order schema
-middleware/authMiddleware.js: JWT route protection
-config/db.js: MongoDB connection
-Frontend (React + Vite)
-App.jsx: route management
-main.jsx: frontend entry
-pages/Home.jsx: product listing
-pages/ProductDetails.jsx: product details
-pages/Cart.jsx: cart page
-pages/Shipping.jsx: shipping form
-pages/PlaceOrder.jsx: checkout review
-pages/Success.jsx: order success
-pages/Orders.jsx: order history
-pages/Login.jsx: login page
-pages/Register.jsx: register page
-components/Navbar.jsx
-components/Footer.jsx
-components/ProductCard.jsx
-components/CartItem.jsx
-context/AuthContext.jsx
-context/CartContext.jsx
-services/api.js
+- App.jsx: route management
+- main.jsx: frontend entry
+- pages/Home.jsx: product listing
+- pages/ProductDetails.jsx: product details
+- pages/Cart.jsx: cart page
+- pages/Shipping.jsx: shipping form
+- pages/PlaceOrder.jsx: checkout review
+- pages/Success.jsx: order success
+- pages/Orders.jsx: order history
+- pages/Login.jsx: login page
+- pages/Register.jsx: register page
+- components/Navbarjsx
+- components/Footer.jsx
+- components/ProductCard.jsx
+- components/CartItem.jsx
+- context/AuthContext.jsx
+- context/CartContext.jsx
+- services/api.js
 
 ## Technologies Used
-MongoDB Atlas (Database)
-Express.js (Backend framework)
-React.js (Frontend library)
-Node.js (Runtime environment)
-Mongoose (ODM)
+
+- MongoDB Atlas (Database)
+- Express.js (Backend framework)
+- React.js (Frontend library)
+- Node.js (Runtime environment)
+- Mongoose (ODM)
 
 ##  JWT Authentication
 
-Tailwind CSS (Styling)
-React Router DOM
-Lucide React Icons
-Vite (Frontend build tool)
-Render (Backend deployment)
-Vercel (Frontend deployment)
+- Tailwind CSS (Styling)
+- React Router DOM
+- Lucide React Icons
+- Vite (Frontend build tool)
+- Render (Backend deployment)
+- Vercel (Frontend deployment)
 
 ## Learning Outcome
 
-Building a production-style MERN application
-Designing REST APIs
-JWT authentication and protected routes
-Managing global state with Context API
-Handling hybrid cart systems (guest + logged user)
-Order creation and order history flows
-Connecting frontend with backend APIs
-Deployment of full stack applications
-Debugging real-world issues such as:
-cart sync issues
-deployment errors
-API failures
-database bugs
-loading/performance issues
-Challenges Faced
+- Building a production-style MERN application
+- Designing REST APIs
+- JWT authentication and protected routes
+- Managing global state with Context API
+- Handling hybrid cart systems (guest + logged user)
+- Order creation and order history flows
+- Connecting frontend with backend APIs
+- Deployment of full stack applications
+- Debugging real-world issues such as:
+- cart sync issues
+- deployment errors
+- API failures
+- database bugs
+- loading/performance issues
+- Challenges Faced
 
 One major planned feature was Razorpay payment integration.
 
@@ -121,11 +124,11 @@ This was an important real-world learning decision: sometimes removing unstable 
 
 The project is fully functional, but some improvements are still in progress:
 
-Product images may load slowly due to external image URLs
-Backend may take time on first load because Render free tier sleeps
-Minor UI polish is still ongoing
-Some pages can feel slightly slow on lower-end devices
-Performance optimization is planned for future updates
+- Product images may load slowly due to external image URLs
+- Backend may take time on first load because Render free tier sleeps
+- Minor UI polish is still ongoing
+- Some pages can feel slightly slow on lower-end devices
+- Performance optimization is planned for future updates
 
 These issues are currently being worked on.
 
@@ -133,34 +136,35 @@ These issues are currently being worked on.
 
 Planned future upgrades include:
 
-Razorpay payment integration
-Cloudinary image hosting and optimization
-Admin dashboard
-add products
-edit products
-delete products
-manage orders
-Advanced product filters
-Better loading states and skeleton loaders
-More polished UI/UX
-smoother transitions and animations
-performance optimization
-faster image loading
-wishlist functionality
-product reviews and ratings
-user profile management
-better mobile experience
-production-grade deployment improvements
-custom domain setup
+- Razorpay payment integration
+- cloudinary image hosting and optimization
+- Admin dashboard
+- add products
+- edit products
+- delete products
+- manage orders
+- Advanced product filters
+- Better loading states and skeleton loaders
+- More polished UI/UX
+- smoother transitions and animations
+- performance optimization
+- faster image loading
+- wishlist functionality
+- product reviews and ratings
+- user profile management
+- better mobile experience
+- production-grade deployment improvements
+- custom domain setup
 
 ## Notes
 
 This is a real-world learning-focused MERN project
-Backend deployed on Render
-Frontend deployed on Vercel
-Environment variables used for secure configuration
-Development is ongoing and improvements will continue
-Live Demo
+
+- Backend deployed on Render
+- Frontend deployed on Vercel
+- Environment variables used for secure configuration
+- Development is ongoing and improvements will continue
+- Live Demo
 
 Frontend: https://shop-sphere-zeta-eight.vercel.app/
 
