@@ -14,27 +14,27 @@ The project demonstrates a complete end-to-end e-commerce workflow including fro
 
 ## Features
 
--Browse all products
--Product details page
--Search products by keyword
--Filter products by category
--JWT-based user authentication (Login/Register)
--Protected routes for authorized users
--Hybrid cart system:
--Guest cart using localStorage
--Logged-in user cart using MongoDB
--Automatic cart merge on login
--Add to cart
--Increase/decrease cart quantity
--Remove products from cart
--Shipping information form
--Place order flow
--Cash on Delivery checkout
--Order success page
--Order history page (user-specific)
--“Buy Again” functionality
--Fully responsive frontend UI
--Backend + frontend deployed successfully
+- Browse all products
+- Product details page
+- Search products by keyword
+- Filter products by category
+- JWT-based user authentication (Login/Register)
+- Protected routes for authorized users
+- Hybrid cart system:
+- Guest cart using localStorage
+- Logged-in user cart using MongoDB
+- Automatic cart merge on login
+- Add to cart
+- Increase/decrease cart quantity
+- Remove products from cart
+- Shipping information form
+- Place order flow
+- Cash on Delivery checkout
+- Order success page
+- Order history page (user-specific)
+- “Buy Again” functionality
+- Fully responsive frontend UI
+- Backend + frontend deployed successfully
 
 ## Project Structure / Components
 
