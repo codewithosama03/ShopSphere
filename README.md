@@ -89,6 +89,21 @@ The project demonstrates a complete end-to-end e-commerce workflow including fro
 - Render (Backend deployment)
 - Vercel (Frontend deployment)
 
+- ## Screenshots
+
+### Home Page
+![Home Page](ss1.png)
+
+### Product Details
+![Product Details](ss2.png)
+
+### Cart Page
+![Cart Page](ss3.png)
+
+### Shipping Page
+![Shipping Page](ss4.png)
+
+
 ## Learning Outcome
 
 - Building a production-style MERN application
