@@ -97,10 +97,10 @@ The project demonstrates a complete end-to-end e-commerce workflow including fro
 ### Product Details
 ![Product Details](ss2.png)
 
-### Cart Page
+### Place Order Page
 ![Cart Page](ss3.png)
 
-### Shipping Page
+### Order Success page
 ![Shipping Page](ss4.png)
 
 
