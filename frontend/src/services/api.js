@@ -1,5 +1,6 @@
-const BASE_URL =
-  "https://shopsphere-backend-2wim.onrender.com/api";
+// const BASE_URL = "https://shopsphere-wf7r.onrender.com";
+
+const BASE_URL = "https://shopsphere-wf7r.onrender.com/api";
 
 // helper
 const getToken = () => {
